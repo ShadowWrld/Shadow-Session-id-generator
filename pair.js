@@ -57,12 +57,12 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*Pair Code Connected by SHADOW*
-*Made With ʕʘ̅͜ʘ̅ʔ*
+*_Pair Code Connected by SHADOW*
+*_Made With ʕʘ̅͜ʘ̅ʔ_*
 ______________________________________
 ╔════◇
 ║ *『 AMAZING YOU'VE CHOSEN SHADOW MD 』*
-║ *You Have Completed the First Step to Deploy a Whatsapp Bot.*
+║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
@@ -72,7 +72,7 @@ ______________________________________
 ╚════════════════════════╝
 _____________________________________
 
-*Don't Forget To Give Star To My Repo*
+_Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
