@@ -59,21 +59,18 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By David_Cyril*
+*_Session Connected By SHADOW*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ITACHI UCHIHA 』*
+║ *『 AMAZING YOU'VE CHOSEN SHADOW MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com
-║❒ *Owner:* https://wa.me/2349066528353_
-║❒ *Repo:* _https://github.com/DeeCeeXxx_
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
-║❒ *Plugins:* _https://github.com/Itxxwasi 
+║❒ *Ytube:* _www.youtube.com/@Shadow_wrld-f9z
+║❒ *Owner:* https://wa.me/50946351133_
+║❒ *Repo:* _https://github.com/carlydopeboii/SHADOW-MD-BOT
 ╚════════════════════════╝
 _____________________________________
 	
